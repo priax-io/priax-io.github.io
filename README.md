@@ -1,25 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to Priax Dev Pages
 
-You can use the [editor on GitHub](https://github.com/priax-io/priax-io.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Priax is an enterprise application
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Tecnologies
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Priax uses the best practices and tecnologies to deliver the best solutions
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+- Kafka
+- Quakus
+- Elastic
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
