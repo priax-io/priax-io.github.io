@@ -1,228 +1,545 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Priax - Core</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	<link rel="shortcut icon" href="images/priax_grey.png" >
-<!--
+<!doctype html>
+  <html class="no-js" lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Priax</title>
+    <meta name="description" content="">
 
-Template 2075 Digital Team
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+      <!-- Place favicon.ico in the root directory -->
 
-http://www.tooplate.com/view/2075-digital-team
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
--->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/et-line-font.css">
-	<link rel="stylesheet" href="css/nivo-lightbox.css">
-	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+    <style type="text/css">
+      #hidden-content{
+        display: none;
+        width: 100%;
+        max-width: 525px;
+      }
+      #hidden-content h3{
+        text-align: center;
+        color: #fff;
+        font-size: 19px;
+        margin: 5px 0;
+      }
+      #hidden-content #form-demo{
+        text-align: center;
+        padding: 0 20px;
+      }
+      #hidden-content #form-demo p.nome{
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+      #form-demo label{
+        display: block;
+        font-size: 15px;
+        text-align: left;
+        color: #fff;
+      }
+      #hidden-content .fancybox-button{
+        color: #fff;
+        background: none;
+      }
+      #form-demo input{
+        width: 100%;
+        background: none;
+        border: 1px solid #0072ff;
+        border-radius: 2px;
+        height: 35px;
+        margin-bottom: 0px;
+        color: #fff;
+        font-size: 13px;
+        padding-left: 10px;
+      }
+      #form-demo #btn_enviar{
+        background: #0072ff;
+        border: 0;
+        border-radius: 2px;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        color: #fff;
+        font-size: 15px;
+        font-family: 'helveticabold';
+        cursor: pointer;
+        margin-top: 20px;
+      }
+      .fancybox-content{
+        background: #000;
+        border-radius: 6px;
+      }
+    </style>
+
 </head>
-<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+<body data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+<main>
+  <header>
+      <div class="side-left col-6 prefix_1">
+        <img class="logo" src="img/novo-logo.png" alt="Priax.">
+      </div>
 
-<!-- preloader section -->
-<div class="preloader">
-	<div class="sk-spinner sk-spinner-circle">
-       <div class="sk-circle1 sk-circle"></div>
-       <div class="sk-circle2 sk-circle"></div>
-       <div class="sk-circle3 sk-circle"></div>
-       <div class="sk-circle4 sk-circle"></div>
-       <div class="sk-circle5 sk-circle"></div>
-       <div class="sk-circle6 sk-circle"></div>
-       <div class="sk-circle7 sk-circle"></div>
-       <div class="sk-circle8 sk-circle"></div>
-       <div class="sk-circle9 sk-circle"></div>
-       <div class="sk-circle10 sk-circle"></div>
-       <div class="sk-circle11 sk-circle"></div>
-       <div class="sk-circle12 sk-circle"></div>
+      <div class="side-right col-6 suffix_1">
+
+        <!-- <div class="lang">
+          <a class="pt language" href="">PT</a>
+          <a class="en language" href="">EN</a>
+        </div> -->
+
+        <a class="mais-infos desktop" href="#contato">Mais informações</a>
+
+
+      </div>
+  </header>
+
+  <article class="banner">
+        <div class="col-6 prefix_1">
+            <h2 data-aos="zoom-in" data-aos-duration="900">CMDB, Documentação e Monitoramento<br>profundo do ambiente de TI "as Code"!</h2>
+            <p data-aos="fade-up" data-aos-duration="1400">Simplifique o processo de criação, manutenção<br>e compartilhamento do conhecimento sobre sua<br>infraestrutura de TI.<br>Automatize o monitoramento de Configurações,<br>Disponibilidade e Capacidade do ambiente.</p>
+
+
+            <!-- <a data-aos="fade-up" data-aos-duration="1800" class="bt-orange desktop" href="#">Solicite uma demonstração</a> -->
+
+            <a data-fancybox="" data-aos="fade-up" data-aos-duration="1800" data-src="#hidden-content" href="javascript:;" class="bt-orange desktop">Solicite Demonstração</a>
+
+
+
+            <a data-aos="fade-up" data-aos-duration="1800" class="bt-orange mobile" href="#contato">Mais informações</a>
+        </div>
+        <div class="col-6 aos-item desktop" data-aos-duration="2000" data-aos="fade-left">
+          <!-- <div class="aos-item__inner"><img src="img/Priax_animation_2.gif" alt="Priax animation"></div> -->
+          <div class="aos-item__inner"><img src="img/priax-imagem-home-03.png" alt="Priax animation"></div>
+        </div>
+    </article>
+</main>
+
+  <article class="conhecimento">
+    <div class="col-6 img aos-item mobile" data-aos-duration="1500" data-aos="fade-left">
+      <div class="aos-item__inner"><img src="img/priax-conhecimento-as-a-code.png"></div>
+    </div>
+    <div class="col-6 prefix_1 texto aos-item" data-aos-duration="1500" data-aos="fade-right">
+      <div class="aos-item__inner">
+                <h2>Possua um mapa de toda a Infraestrutura de TI em uma única ferramenta!</h2>
+                <p>O Priax cria conhecimento sobre sua infraestrutura de TI, consolidando as informações em uma CMDB compatível com o ITIL e possibilitando a coleta de dados em de todos os Itens de Configuração, sejam eles referentes às estações de trabalho, dispositivos de rede, servidores ou ambiente Cloud.<br>
+                Após cadastrados, as informaçõe podem ser usadas em Dashboards, Relatórios e para a integração com ferramentas que podem fazer uso das informações de CMDB.</p>
+            </div>
+        </div>
+        <div class="img aos-item desktop" data-aos-duration="1500" data-aos="fade-left">
+            <div class="aos-item__inner"><img src="img/priax-conhecimento-as-a-code.png"></div>
+        </div>
+    </article>
+
+    <article class="como-pode-ajudar">
+      <div class="prefix_1 suffix_1">
+        <h2>Como o PRIAX pode ajudar?<br><br></h2>
+
+        <div class="desktop">
+          <article class="simplifica">
+            <div class="slider-for col-6" data-aos="fade-left" data-aos-easing="ease" data-aos-duration="1500">
+            <div class="texto">
+              <h3>Automatize de verdade a criação de conhecimento sobre seu Ambiente de TI</h3>
+              <p>O Priax automatiza a criação de uma CMDB abrangente e completa através da dectecção Itens de Configuração do ambiente On-Premise ou Cloud, por meio de um discovery inteligente e full stack.</p>
+              <ul>
+                <li>Mantém a CMDB sincronizada com seu ambiente real, mantendo histórico de todas as mudanças;</li>
+                <li>Abrange desde as estações de trabalho, passando por ativos de rede, servidores e ambiente Cloud, consolidando de fato a informação sobre seu ambiente de TI em uma única ferramenta;</li>
+                <li>Cria Documentação profunda, customizável e automaticamente atualizada de todo seu ambiente de TI;</li>
+                <li>Através de WebServices, permite a integração com ferramentas e a customização de processos de negócio de TI, de acordo com suas necessidades.</li>
+              </ul>
+            </div>
+            </div>
+            <div class="slider-nav col-6" data-aos="fade-right" data-aos-easing="ease" data-aos-duration="1500">
+              <img src="img/priax-cmdb-utility.png" width="600">
+            </div>
+          </article>
+
+          <article class="automatize">
+            <div class="slider-nav col-6" data-aos="fade-right" data-aos-easing="ease" data-aos-duration="1500">
+              <img src="img/priax-application-maps.png">
+            </div>
+            <div class="slider-for col-6" data-aos="fade-left" data-aos-easing="ease" data-aos-duration="1500">
+              <div class="texto">
+                <h3>Mapas automatizados de dependências das Aplicações e demais recursos de TI</h3>
+                <p>O Priax pode criar mapas de dependências de suas aplicações de negócio, de forma 100% automatizada, vinculando Itens de Configuração detectados pelo discovery e refletindo a realidade e as mudanças realizadas a nível de código da aplicação.</p>
+                <ul>
+                  <li>Automatiza a criação de mapas de dependências das Aplicações;</li>
+                  <li>Reflete as dependências reais de suas aplicações, sempre que elas forem atualizadas;</li>
+                  <li>Permite a identificação em tempo real de impactos de mudanças de configuração e eventos de capacidade e disponibilidade.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="gestao">
+            <div class="slider-for col-6" data-aos="fade-left" data-aos-easing="ease" data-aos-duration="1500">
+              <div class="texto">
+                <h3>Integração com os principais provedores Cloud do mercado</h3>
+                <p>O Priax automatiza a descoberta de Itens de Configuração dos principais provedores de Cloud do mercado, descobrindo a infraestrutura, inserindo os recursos na CMDB e detectando as dependências entre esses os ICs em cloud e os ICs on-Premises, criando mapas únicos de dependências entre esses elementos.<br>
+                Entre os provedores Cloud suportados estão:</p>
+                <ul>
+                  <li>Amazon AWS;</li>
+                  <li>Microsoft Azure;</li>
+                  <li>Google Cloud.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="slider-nav col-6" data-aos="fade-right" data-aos-easing="ease" data-aos-duration="1500">
+              <img src="img/priax-cloud-resources.png">
+            </div>
+          </article>
+
+          <article class="aloque">
+            <div class="slider-nav col-6" data-aos="fade-right" data-aos-easing="ease" data-aos-duration="1500">
+              <img src="img/priax-monitoring.png">
+            </div>
+            <div class="slider-for col-6" data-aos="fade-left" data-aos-easing="ease" data-aos-duration="1500">
+              <div class="texto">
+                <h3>Monitoramento de Disponibilidade e Capacidade com o mínimo esforço e máximo resultado</h3>
+                <p>Automatize a implantação e manutenção do ferramental de monitoramento reagindo automaticamente às mudanças que ocorrem no ambiente e reduza drasticamente a complexidade, o tempo e o custo relacionado.<br>
+                Tenha a informação precisa a respeito dos eventos, identificando automaticamente as aplicações impactadas, os processos de negócio afetados e os SLAs que se impõe frente ao evento.<br>
+              Diversas opções de integração para visualização dos alertas e dados históricos:</p>
+                <ul>
+                  <li>Elasticsearch;</li>
+                  <li>Opensearch;</li>
+                  <li>Zabbix;</li>
+                  <li>Grafana;</li>
+                  <li>Opmon.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="identifique">
+            <div class="slider-for col-6" data-aos="fade-left" data-aos-easing="ease" data-aos-duration="1500">
+              <div class="texto">
+                <h3>Planeje a Continuidade das operações de negócio dependentes de TI</h3>
+                <p>Identiique os ativos do ambiente que podem causar indisponibilidade dos serviços de TI, crie Análises de Impacto dos ativos de TI no negócio e prepare seu ambiente para os imprevistos.</p>
+                <ul>
+                  <li>Business Impact Analysis;</li>
+                  <li>Business Continuity Planning baseado na ISO 22301;</li>
+                  <li>Identificação de Single Points of Failures;</li>
+                  <li>Simulações de Impactos para qualquer Item de Configuração da infraestrutura;</li>
+                  <li>Identificação de Dependências para Itens de Configuração, Aplicações e Atividades de Negócio.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="slider-nav col-6" data-aos="fade-right" data-aos-easing="ease" data-aos-duration="1500">
+              <img style="width: 500px;" src="img/priax-bcp.png">
+            </div>
+          </article>
+
+        </div>
+        <div class="mobile">
+          <div class="slider slider-fade" data-aos="fade-left" data-aos-easing="ease" data-aos-duration="1500">
+            <div class="texto">
+              <h3>Simplifica a manutenção dos sistemas de monitoramento</h3>
+              <p>O Priax automatiza a dectecção de ambiente físico e lógico de ambientes de TI, sejam On-Premise ou Cloud, por meio de um discovery inteligente e full stack.</p>
+                <ul>
+                  <li>Inclui novos ativos de TI de forma automática;</li>
+                  <li>Remove as instâncias não utilizadas;</li>
+                  <li>Ajuda sua equipe a focar no que é importante.</li>
+                </ul>
+            </div>
+            <div class="texto">
+              <h3>Automatize a documentação sem a necessidade de especialistas</h3>
+              <p>O Priax varre a sua rede, identifica todos os equipamentos e aplicações, coleta as configurações e consolida tudo isso em um único CMDB.</p>
+              <ul>
+                <li>Facilita o aprendizado da infraestrutura;</li>
+                <li>Simplifica a Gestão de Mudanças;</li>
+                <li>Dá visibilidade das alterações no ambiente.</li>
+              </ul>
+            </div>
+            <div class="texto">
+              <h3>Gestão de mudanças online: simples e rápida</h3>
+              <p>O Priax automatiza a criação e manutenção da árvore de todos os ativos de TI, consolidando a documentação e configuração de diferentes sistemas.</p>
+              <ul>
+                <li>Apresenta o mapa de dependências para cada serviço;</li>
+                <li>Mostra as janelas disponíveis para realizar manutenções;</li>
+                <li>Exibe o impacto causado por cada mudança.</li>
+              </ul>
+            </div>
+            <div class="texto">
+              <h3>Aloque o profissional adequado para a resolução de problemas</h3>
+              <p>A navegação no mapa de ativos do Priax simplifica a visualização das alterações em configurações e facilita o trabalho das equipes de TI na hora de buscar a causa raiz.</p>
+              <ul>
+                <li>Visão do impacto causado por mudanças;</li>
+                <li>Diversas opções de relatórios do ambiente;</li>
+                <li>Associação entre monitoramento e documentação.</li>
+              </ul>
+            </div>
+            <div class="texto">
+              <h3>Identifique os pontos únicos de falha do seu ambiente</h3>
+              <p>Descubra os ativos que individualmente podem causar indisponibilidade dos serviços de TI, tornando seu ambiente mais redundante e menos exposto a riscos.</p>
+              <ul>
+                <li>Insights sobre pontos de melhoria no ambiente;</li>
+                <li>Ambiente menos expostos a riscos;</li>
+                <li>Antecipa sua equipe às falhas da TI.</li>
+              </ul>
+            </div>
+
+            </div>
+          </div>
+        </div>
+    </article>
+
+    <article class="beneficios">
+      <div class="prefix_1 suffix_1">
+        <div class="titulo-benef col-6">
+          <h2 data-aos="fade-right" data-aos-duration="1500">Benefícios</h2>
+        </div>
+        <div class="col-6 center-texto">
+          <div class="texto-benef">
+            <h3 data-aos="fade-up" data-aos-easing="ease" data-aos-duration="2000">Redução de custos</h3>
+            <p data-aos="fade-up" data-aos-easing="ease" data-aos-duration="2000">Pela automatização dos serviços de documentação, gerenciamento e monitoramento.</p>
+
+            <h3 data-aos="fade-up" data-aos-easing="ease" data-aos-duration="2000">Elevação da Maturidade</h3>
+            <p data-aos="fade-up" data-aos-easing="ease" data-aos-duration="2000">Entrega resultados em diversas disciplinas da gerência de TI.</p>
+
+            <h3 data-aos="fade-up" data-aos-easing="ease" data-aos-duration="2000">Reduza a dependência das pessoas</h3>
+            <p data-aos="fade-up" data-aos-easing="ease" data-aos-duration="2000">Produz, mantém e compartilha segurança e conhecimento sobre a Infraestrutura de TI de maneira padronizada e de fácil compreensão.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="para-quem">
+      <div class="prefix_1 suffix_1">
+        <h2>Onde o Priax pode ajudar?</h2>
+
+        <div class="col-3" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000">
+          <img src="img/disciplines-docs.png">
+          <h3>CMDB e<br>Gerências de Conhecimento</h3>
+        </div>
+
+        <div class="col-3" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1500">
+          <img src="img/disciplines-monitoring.png">
+          <h3>Monitoramento de<br>Infraestrutura e Aplicações</h3>
+        </div>
+
+        <div class="col-3" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="2000">
+          <img src="img/disciplines-changemanagement.png">
+          <h3>Gerência de <br>Mudanças</h3>
+        </div>
+
+        <div class="col-3" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="2500">
+          <img src="img/disciplines-bcp.png">
+          <h3>Gerência de <br>Continuidade de Negócios</h3>
+        </div>
+      </div>
+    </article>
+
+    <article class="chamada">
+      <div class="row">
+        <h2 data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1500">Tenha visibilidade e controle de sua <strong>infraestrutura de TI</strong> e eleve a segurança operacional de seu negócio.</h2>
+        <a data-aos="fade-up" data-aos-easing="ease" data-aos-duration="2000" class="bt-orange" href="#">Obtenha mais Informações</a>
+      </div>
+    </article>
+
+    <footer id="contato">
+      <div class="prefix_1 suffix_1">
+        <div class="col-5 suffix_1 desktop">
+          <h2>Contato</h2>
+          <h3>E-mail</h3>
+          <a href="mailto:info@priax.io">info@priax.io</a><br><br>
+
+          <h3>Telefone</h3>
+          <a href="tel:5132167000">+55 51 3216.7000</a><br><br>
+
+          <h3>Siga-nos</h3>
+          <!-- <a class="rede-social" href=""><i class="fab fa-facebook-f"></i></a> -->
+          <a class="rede-social" href=""><i class="fab fa-linkedin-in"></i></a>
+          <img class="logo" src="img/novo-logo-rodape.png" alt="Priax.">
+
+          <p class="copyright">© Priax, todos os direitos reservados.</p>
+        </div>
+
+        <div class="col-7 forms" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1500">
+          <h3>Entre em contato ou solicite uma proposta.</h3>
+
+          <form id="form-contato" name="mail" action="" method="post">
+
+            <p class="nome col-6">
+              <label for="nome">Nome</label>
+              <input class="" type="text" id="nome" required="required" x-moz-errormessage="Preencha este campo." name="nome" maxlength="255"/>
+          </p>
+          <p class="email col-6">
+              <label for="email">E-mail</label>
+              <input class="" type="email" id="email" required="required" x-moz-errormessage="Preencha este campo." name="email" maxlength="255"/>
+          </p>
+            <p class="telefone col-6">
+              <label for="telefone">Telefone</label>
+              <input type="tel" class="telefone" id="telefone" required="" x-moz-errormessage="Preencha este campo." name="telefone" maxlength="10" />
+          </p>
+          <p class="empresa col-6">
+              <label for="empresa">Empresa</label>
+              <input type="text" class="empresa" id="empresa" required="" x-moz-errormessage="Preencha este campo." name="empresa" maxlength="255" />
+          </p>
+          <p class="mensagem col-12">
+              <label for="mensagem">Mensagem</label>
+              <textarea class="" required="" x-moz-errormessage="Preencha este campo." name="mensagem" placeholder="" maxlength="400"></textarea>
+          </p>
+          <!-- <input id="btn_enviar" type="submit" name="enviar" value="Enviar"> -->
+          <button id="btn_enviar" type="submit">Enviar</button>
+
+        </form>
+      </div>
+      <div class="text-footer col-4 suffix_1 mobile">
+        <h2>Contato</h2>
+        <h3>E-mail</h3>
+        <a href="mailto:info@priax.io">info@priax.io</a><br><br>
+
+        <h3>Telefone</h3>
+        <a href="tel:5132167000">+55 51 3216.7000</a><br><br>
+
+        <h3>Siga-nos</h3>
+        <div class="redes">
+          <!-- <a class="rede-social" href="#"><i class="fab fa-facebook-f"></i></a> -->
+          <a class="rede-social" href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div><br>
+
+        <img class="logo" src="img/novo-logo-rodape.png" alt="Priax.">
+        <p class="copyright">© Priax, todos os direitos reservados.</p>
+      </div>
+
+    </div>
+  </footer>
+  
+  <div style="display:none;" id="hidden-content">
+    <div id="more">
+      <h3>Entre em contato ou solicite uma demo.</h3>
+      <form id="form-demo" name="mail" action="" method="post" style="text-align: center;">
+        <p class="nome">
+          <label for="nome">Nome</label>
+          <input class="" type="text" id="nome" required="required" x-moz-errormessage="Preencha este campo." name="nome" maxlength="255"/>
+        </p>
+        <p class="empresa col-6">
+          <label for="empresa">Empresa</label>
+          <input type="text" class="empresa" id="empresa" required="" x-moz-errormessage="Preencha este campo." name="empresa" maxlength="255" />
+        </p>
+        <p class="cargo col-6">
+          <label for="nome">Cargo</label>
+          <input class="" type="text" id="cargo" required="required" x-moz-errormessage="Preencha este campo." name="cargo" maxlength="255"/>
+        </p>
+        <p class="cidade col-6">
+          <label for="cidade">Cidade</label>
+          <input type="text" class="cidade" id="cidade" required="" x-moz-errormessage="Preencha este campo." name="cidade" maxlength="255" />
+        </p>
+        <p class="telefone col-6">
+          <label for="telefone">Telefone</label>
+          <input type="tel" class="telefone" id="telefone" required="" x-moz-errormessage="Preencha este campo." name="telefone" maxlength="10" />
+        </p>
+        <p class="email col-12">
+          <label for="email">E-mail</label>
+          <input class="" type="email" id="email" required="required" x-moz-errormessage="Preencha este campo." name="email" maxlength="255"/>
+        </p>
+        <button id="btn_enviar" type="submit">Enviar</button>
+      </form>
     </div>
 </div>
 
-<!-- navigation section -->
-<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-			</button>
-			<a href="#" class="navbar-brand">Priax</a>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#home" class="smoothScroll">HOME</a></li>
-				<li><a href="#work" class="smoothScroll">WORK</a></li>
-				<li><a href="#portfolio" class="smoothScroll">PORTFOLIO</a></li>
-				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
-			</ul>
-		</div>
-	</div>
-</section>
-
-<!-- home section -->
-<section id="home">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<h3>LIVE DOCUMENTATION / DISCOVERY / MONITORING / CLOUD </h3>
-				<img src="images/logo_branco.png" class="img-responsive" alt="about img" style="display: block;margin-left: auto;margin-right: auto;width: 43%;">
-				<hr>
-				<a href="#work" class="smoothScroll btn btn-danger">What we do</a>
-				<a href="#contact" class="smoothScroll btn btn-default">Talk to us</a>
-			</div>
-		</div>
-	</div>		
-</section>
-
-<!-- work section -->
-<section id="work">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="section-title">
-					<strong>01</strong>
-					<h1 class="heading bold">WHAT WE DO</h1>
-					<hr>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<i class="fa fa-book medium-icon"></i>
-					<h3>DOCUMENTATION</h3>
-					<hr>
-					<p>Know all your environment, keep documentation updated</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-				<i class="fa fa-rocket medium-icon"></i>
-					<h3>DISCOVERY</h3>
-					<hr>
-					<p>Automated Process will reveal all you IT environment</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-				<i class="fa fa-desktop medium-icon"></i>
-					<h3>MONITORING</h3>
-					<hr>
-					<p>Keep track of all your monitored IT environment. Define KPIs and custom checks, be aware of changes or downtimes and more...</p>
-			</div>
-			
-		</div>
-	</div>
-</section>
-
-<!-- portfolio section -->
-<div id="portfolio">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="section-title">
-					<strong>02</strong>
-					<h1 class="heading bold">OUR PORTFOLIO</h1>
-					<hr>
-				</div>
-				<!-- ISO section -->
-				<div class="iso-section">
-					<ul class="filter-wrapper clearfix">
-                   		 <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-                   		 <li><a href="#" class="opc-main-bg" data-filter=".html">HTML</a></li>
-                   		 <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
-                    	 <li><a href="#" class="opc-main-bg" data-filter=".wordpress">Wordpress</a></li>
-                    	 <li><a href="#" class="opc-main-bg" data-filter=".mobile">Mobile</a></li>
-               		</ul>
-               		<div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
-               			<div class="iso-box-wrapper col4-iso-box">
-
-               				 <div class="iso-box html wordpress mobile col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img1.jpg" alt="portfolio img"></a>
-               				 </div>
-
-               				 <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img2.jpg" alt="portfolio img"></a>
-               				 </div>
-
-               				 <div class="iso-box html mobile col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img3.jpg" alt="portfolio img"></a>
-               				 </div>
-
-               				 <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img4.jpg" alt="portfolio img"></a>
-               				 </div>
-
-               				 <div class="iso-box html photoshop col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img5.jpg" alt="portfolio img"></a>
-               				 </div>
-
-               				 <div class="iso-box photoshop col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img6.jpg" alt="portfolio img"></a>
-               				 </div>
-
-               			</div>
-               		</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-</div>		
-
-<!-- contact section -->
-<section id="contact">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12 text-center">
-				<div class="section-title">
-					<strong>03</strong>
-					<h1 class="heading bold">CONTACT US</h1>
-					<hr>
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12 contact-info">
-				<h2 class="heading bold">CONTACT INFO</h2>
-				<p>We are waiting for your contact.</p>
-				<div class="col-md-6 col-sm-4">
-					<h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
-					<p>contact@priax.io</p>
-				</div>
-			</div>
-		
-		</div>
-	</div>
-</section>
-
-<!-- footer section -->
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<p>Copyright © Digital Team HTML5 Template | Design: <a href="http://www.tooplate.com" target="_parent">Tooplate</a></p>
-				<hr>
-				<!-- <ul class="social-icon">
-					<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-					<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-					<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-					<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.9s"></a></li>
-					<li><a href="#" class="fa fa-tumblr wow fadeIn" data-wow-delay="0.9s"></a></li>
-				</ul> -->
-			</div>
-		</div>
-	</div>
-</footer>
-
-
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/isotope.js"></script>
-<script src="js/imagesloaded.min.js"></script>
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/jquery.backstretch.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+  <script src="js/vendor/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
+  <script src="js/plugins.js" ></script>
+  <script src="js/main.js"></script>
+  <script src="js/jquery.mask.js"></script>
+  <script src="js/jquery.validation.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/aos.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+      //$(document).on('ready', function() {
+          AOS.init({
+            easing: 'ease-in-out-sine'
+          });
+         /* $('.slider-for').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          autoplay: true,
+          autoplaySpeed: 6000,
+          speed: 1000,
+          pauseOnHover: true,
+          infinite: true,
+          cssEase: 'linear',
+          asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+          slidesToShow: 5,
+          vertical: true,
+          centerMode: true,
+          slidesToScroll: 1,
+          asNavFor: '.slider-for',
+          dots: true,
+          infinite: true,
+          autoplay: true,
+          speed: 1000,
+          autoplaySpeed: 6000,
+          pauseOnHover: true,
+          centerMode: true,
+          cssEase: 'linear',
+          focusOnSelect: true
+        }); */
+        $('.slider-fade').slick({
+          dots: false,
+          infinite: true,
+          speed: 500,
+          fade: true,
+          infinite: true,
+          autoplay: true,
+          speed: 1000,
+          autoplaySpeed: 2000,
+          pauseOnHover: true,
+          touchMove: true,
+          cssEase: 'linear'
+        });
+        var $doc = $('html, body');
+        $('a').click(function() {
+            $doc.animate({ scrollTop: $( $.attr(this, 'href') ).offset().top }, 1200);
+            return false;
+        });
+     // });
+  </script>
 
 </body>
 </html>
