@@ -394,7 +394,10 @@
         <div class="col-7 forms" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1500">
           <h3>Entre em contato ou solicite uma proposta.</h3>
 
-          <form id="form-contato" name="mail" action="" method="post">
+          <form id="form-contato" action="https://formkeep.com/f/c18473abc06a" style="text-align: center;"
+			accept-charset="UTF-8"
+			enctype="multipart/form-data"
+			method="POST">
 
             <p class="nome col-6">
               <label for="nome">Nome</label>
@@ -477,6 +480,14 @@
         <button id="btn_enviar" type="submit">Enviar</button>
       </form>
     </div>
+	
+</div>
+
+<div style="display:none;" id="hidden-thanks">
+    <div id="more" style="text-align: center;">
+      <h3>Entre em contato ou solicite uma demo.</h3>
+	  <a data-fancybox="" class="bt-orange desktop">Fechar</a>
+    </div>
 </div>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
@@ -542,6 +553,70 @@
             $doc.animate({ scrollTop: $( $.attr(this, 'href') ).offset().top }, 1200);
             return false;
         });
+		$('#form-demo').submit(function(event){
+			event.preventDefault();
+			var form = $('#form-demo')[0];
+			var data = new FormData(form);
+			console.log(data.get(email));
+			
+			$.fancybox.close();
+			//$('#hidden-thanks').show();
+			$.ajax({
+                    type: "POST",
+                    enctype: 'multipart/form-data',
+                    url: "https://formkeep.com/f/c18473abc06a",
+                    data: data,
+                    processData: false, // impedir que o jQuery tranforma a "data" em querystring
+                    contentType: false, // desabilitar o cabeçalho "Content-Type"
+                    cache: false, // desabilitar o "cache"
+                    timeout: 600000, // definir um tempo limite (opcional)
+                    // manipular o sucesso da requisição
+                    success: function (resp) {
+                        console.log(resp);
+						$.fancybox.close();
+                        // reativar o botão de "submit"
+                        //$("#btnSubmit").prop("disabled", false);
+                    },
+                    // manipular erros da requisição
+                    error: function (e) {
+                        console.log(e);
+                        // reativar o botão de "submit"
+                        //$("#btnSubmit").prop("disabled", false);
+                    }
+                });
+		});
+		$('#form-contato').submit(function(event){
+			event.preventDefault();
+			var form = $('#form-contato')[0];
+			var data = new FormData(form);
+			console.log(data.get(email));
+			
+			$.fancybox.close();
+			//$('#hidden-thanks').show();
+			$.ajax({
+                    type: "POST",
+                    enctype: 'multipart/form-data',
+                    url: "https://formkeep.com/f/c18473abc06a",
+                    data: data,
+                    processData: false, // impedir que o jQuery tranforma a "data" em querystring
+                    contentType: false, // desabilitar o cabeçalho "Content-Type"
+                    cache: false, // desabilitar o "cache"
+                    timeout: 600000, // definir um tempo limite (opcional)
+                    // manipular o sucesso da requisição
+                    success: function (resp) {
+                        console.log(resp);
+						alert('Seu contato foi enviado. Obrigado.');
+                        // reativar o botão de "submit"
+                        //$("#btnSubmit").prop("disabled", false);
+                    },
+                    // manipular erros da requisição
+                    error: function (e) {
+                        console.log(e);
+                        // reativar o botão de "submit"
+                        //$("#btnSubmit").prop("disabled", false);
+                    }
+                });
+		});
      // });
   </script>
 
