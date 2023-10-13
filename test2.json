@@ -1,4 +1,746 @@
 {
+	"nodes": [
+        {
+            "name": "gestor-credito-sau-us",
+            "id": "1069452",
+            "symbolSize": 1
+        },
+        {
+            "name": "meios-pagamento-gateway-us",
+            "id": "460136",
+            "symbolSize": 1
+        },
+        {
+            "name": "operacoes-titulo-credito-us",
+            "id": "165023",
+            "symbolSize": 1
+        },
+        {
+            "name": "pre-aprovado-us",
+            "id": "1121435",
+            "symbolSize": 1
+        },
+        {
+            "name": "linha-credito-us",
+            "id": "1121410",
+            "symbolSize": 1
+        },
+        {
+            "name": "cooperativa-us",
+            "id": "1118998",
+            "symbolSize": 1
+        },
+        {
+            "name": "integrador-convenio-sau-uis",
+            "id": "262125",
+            "symbolSize": 1
+        },
+        {
+            "name": "conta-us",
+            "id": "190156",
+            "symbolSize": 1
+        },
+        {
+            "name": "titulo-us",
+            "id": "186816",
+            "symbolSize": 1
+        },
+        {
+            "name": "dbdec-us",
+            "id": "186888",
+            "symbolSize": 1
+        },
+        {
+            "name": "titulo-credito-us",
+            "id": "188472",
+            "symbolSize": 1
+        },
+        {
+            "name": "controle-transacao-canais-us",
+            "id": "189967",
+            "symbolSize": 1
+        },
+        {
+            "name": "autenticador-operacao-us",
+            "id": "190126",
+            "symbolSize": 1
+        },
+        {
+            "name": "ted-us",
+            "id": "186884",
+            "symbolSize": 1
+        },
+        {
+            "name": "convenio-sau-ufs",
+            "id": "420459",
+            "symbolSize": 1
+        },
+        {
+            "name": "contacorrente-sau-us",
+            "id": "190192",
+            "symbolSize": 1
+        },
+        {
+            "name": "investimento-us",
+            "id": "188671",
+            "symbolSize": 1
+        },
+        {
+            "name": "validador-transacao-us",
+            "id": "189888",
+            "symbolSize": 1
+        },
+        {
+            "name": "pessoa-us",
+            "id": "186640",
+            "symbolSize": 1
+        },
+        {
+            "name": "titulo-liquidacao-us",
+            "id": "190018",
+            "symbolSize": 1
+        },
+        {
+            "name": "credito-sau-us",
+            "id": "189246",
+            "symbolSize": 1
+        },
+        {
+            "name": "movimentacao-us",
+            "id": "254155",
+            "symbolSize": 1
+        },
+        {
+            "name": "multicanal-us",
+            "id": "186887",
+            "symbolSize": 1
+        },
+        {
+            "name": "pix-favorito-us",
+            "id": "609203",
+            "symbolSize": 1
+        },
+        {
+            "name": "cadastro-ufs",
+            "id": "189805",
+            "symbolSize": 1
+        },
+        {
+            "name": "simulador-credito-us",
+            "id": "188418",
+            "symbolSize": 1
+        },
+        {
+            "name": "cob-web-us",
+            "id": "189798",
+            "symbolSize": 1
+        },
+        {
+            "name": "jd-us",
+            "id": "190135",
+            "symbolSize": 1
+        },
+        {
+            "name": "canais-us",
+            "id": "186625",
+            "symbolSize": 1
+        },
+        {
+            "name": "monitore-us",
+            "id": "426301",
+            "symbolSize": 1
+        },
+        {
+            "name": "seguro-prestamista-us",
+            "id": "188467",
+            "symbolSize": 1
+        },
+        {
+            "name": "pix-ispb-us",
+            "id": "431882",
+            "symbolSize": 1
+        },
+        {
+            "name": "previdencia-us",
+            "id": "185848",
+            "symbolSize": 1
+        },
+        {
+            "name": "beneficiario-ufs",
+            "id": "189835",
+            "symbolSize": 1
+        },
+        {
+            "name": "dispositivo-seguranca-us",
+            "id": "189889",
+            "symbolSize": 1
+        },
+        {
+            "name": "pix-qrcode-us",
+            "id": "431872",
+            "symbolSize": 1
+        },
+        {
+            "name": "conta-corrente-us",
+            "id": "186707",
+            "symbolSize": 1
+        },
+        {
+            "name": "pix-efetivacao-us",
+            "id": "431870",
+            "symbolSize": 1
+        },
+        {
+            "name": "titulo-consulta-us",
+            "id": "190068",
+            "symbolSize": 1
+        },
+        {
+            "name": "pix-conta-corrente-uis",
+            "id": "431855",
+            "symbolSize": 1
+        },
+        {
+            "name": "desconto-cheque-us",
+            "id": "187797",
+            "symbolSize": 1
+        },
+        {
+            "name": "cooperativa-us",
+            "id": "189828",
+            "symbolSize": 1
+        },
+        {
+            "name": "beneficiario-us",
+            "id": "189901",
+            "symbolSize": 1
+        },
+        {
+            "name": "linha-credito-us",
+            "id": "188403",
+            "symbolSize": 1
+        },
+        {
+            "name": "titulo-usf",
+            "id": "186944",
+            "symbolSize": 1
+        },
+        {
+            "name": "contratos-us",
+            "id": "190043",
+            "symbolSize": 1
+        },
+        {
+            "name": "recebedor-us",
+            "id": "465316",
+            "symbolSize": 1
+        },
+        {
+            "name": "localidade-us",
+            "id": "190074",
+            "symbolSize": 1
+        },
+        {
+            "name": "analise-credito-us",
+            "id": "186781",
+            "symbolSize": 1
+        },
+        {
+            "name": "pix-dict-us",
+            "id": "333265",
+            "symbolSize": 1
+        },
+        {
+            "name": "pre-aprovado-us",
+            "id": "188729",
+            "symbolSize": 1
+        },
+        {
+            "name": "precificacao-us",
+            "id": "185858",
+            "symbolSize": 1
+        },
+        {
+            "name": "sau-us",
+            "id": "189958",
+            "symbolSize": 1
+        },
+        {
+            "name": "gestor-credito-bff",
+            "id": "1069448",
+            "symbolSize": 0
+        },
+        {
+            "name": "controle-transacao-canais-us",
+            "id": "189967",
+            "symbolSize": 0
+        },
+        {
+            "name": "mobile-banking-bff",
+            "id": "189933",
+            "symbolSize": 0
+        },
+        {
+            "name": "mobile-credito-bff",
+            "id": "1015896",
+            "symbolSize": 0
+        },
+        {
+            "name": "indicador-automovel-us",
+            "id": "188402",
+            "symbolSize": 0
+        },
+        {
+            "name": "contratacao-us",
+            "id": "309293",
+            "symbolSize": 0
+        },
+        {
+            "name": "limites-multicanal-us",
+            "id": "734628",
+            "symbolSize": 0
+        },
+        {
+            "name": "convenio-comprovante-us",
+            "id": "355631",
+            "symbolSize": 0
+        },
+        {
+            "name": "beneficiario-us",
+            "id": "189901",
+            "symbolSize": 0
+        },
+        {
+            "name": "cheque-us",
+            "id": "1226247",
+            "symbolSize": 0
+        },
+        {
+            "name": "desconto-cheque-us",
+            "id": "187797",
+            "symbolSize": 0
+        },
+        {
+            "name": "titulo-usf",
+            "id": "186944",
+            "symbolSize": 0
+        },
+        {
+            "name": "conta-corrente-operacao-us",
+            "id": "188480",
+            "symbolSize": 0
+        },
+        {
+            "name": "operacoes-titulo-credito-us",
+            "id": "165023",
+            "symbolSize": 0
+        },
+        {
+            "name": "internet-banking-bff",
+            "id": "189914",
+            "symbolSize": 0
+        },
+        {
+            "name": "validador-transacao-us",
+            "id": "189888",
+            "symbolSize": 0
+        },
+        {
+            "name": "autorizacao-debito-convenio-uis",
+            "id": "704091",
+            "symbolSize": 0
+        },
+        {
+            "name": "pix-conta-corrente-uis",
+            "id": "431855",
+            "symbolSize": 0
+        },
+        {
+            "name": "openbanking-contacorrente-us",
+            "id": "720974",
+            "symbolSize": 0
+        },
+        {
+            "name": "proposta-us",
+            "id": "188471",
+            "symbolSize": 0
+        },
+        {
+            "name": "usuario-us",
+            "id": "186880",
+            "symbolSize": 0
+        },
+        {
+            "name": "cadastro-ufs",
+            "id": "189805",
+            "symbolSize": 0
+        },
+        {
+            "name": "contratos-us",
+            "id": "190043",
+            "symbolSize": 0
+        },
+        {
+            "name": "meios-pagamento-gateway-us",
+            "id": "460136",
+            "symbolSize": 0
+        },
+        {
+            "name": "investimento-us",
+            "id": "188671",
+            "symbolSize": 0
+        },
+        {
+            "name": "gestor-limite-transacao-us",
+            "id": "533048",
+            "symbolSize": 0
+        },
+        {
+            "name": "multicanal-us",
+            "id": "186887",
+            "symbolSize": 0
+        },
+        {
+            "name": "pre-aprovado-us",
+            "id": "188729",
+            "symbolSize": 0
+        },
+        {
+            "name": "conta-vinculada-us",
+            "id": "188541",
+            "symbolSize": 0
+        },
+        {
+            "name": "simulador-credito-us",
+            "id": "188418",
+            "symbolSize": 0
+        },
+        {
+            "name": "antecipacao-recebiveis-us",
+            "id": "190159",
+            "symbolSize": 0
+        },
+        {
+            "name": "seguro-prestamista-us",
+            "id": "188467",
+            "symbolSize": 0
+        },
+        {
+            "name": "titulo-credito-us",
+            "id": "188472",
+            "symbolSize": 0
+        },
+        {
+            "name": "gestor-limites-us",
+            "id": "564614",
+            "symbolSize": 0
+        },
+        {
+            "name": "dispositivo-seguranca-us",
+            "id": "189889",
+            "symbolSize": 0
+        },
+        {
+            "name": "titulo-us",
+            "id": "186816",
+            "symbolSize": 0
+        },
+        {
+            "name": "titulo-liquidacao-us",
+            "id": "190018",
+            "symbolSize": 0
+        },
+        {
+            "name": "titulo-consulta-us",
+            "id": "190068",
+            "symbolSize": 0
+        },
+        {
+            "name": "analise-credito-us",
+            "id": "186781",
+            "symbolSize": 0
+        },
+        {
+            "name": "pix-efetivacao-us",
+            "id": "431870",
+            "symbolSize": 0
+        },
+        {
+            "name": "pix-qrcode-us",
+            "id": "431872",
+            "symbolSize": 0
+        },
+        {
+            "name": "recebedor-us",
+            "id": "465316",
+            "symbolSize": 0
+        },
+        {
+            "name": "pix-qrcode-ufs",
+            "id": "750075",
+            "symbolSize": 0
+        },
+        {
+            "name": "atm-bff",
+            "id": "189939",
+            "symbolSize": 0
+        },
+        {
+            "name": "pessoa-us",
+            "id": "186640",
+            "symbolSize": 0
+        },
+        {
+            "name": "integrador-convenio-sau-uis",
+            "id": "262125",
+            "symbolSize": 0
+        },
+        {
+            "name": "precificacao-us",
+            "id": "185858",
+            "symbolSize": 0
+        },
+        {
+            "name": "convenio-sau-ufs",
+            "id": "420459",
+            "symbolSize": 0
+        },
+        {
+            "name": "onboarding-gr-bff",
+            "id": "463612",
+            "symbolSize": 0
+        },
+        {
+            "name": "pix-devolucao-us",
+            "id": "431820",
+            "symbolSize": 0
+        },
+        {
+            "name": "dda-us",
+            "id": "186745",
+            "symbolSize": 0
+        },
+        {
+            "name": "pagamento-cash-us",
+            "id": "387539",
+            "symbolSize": 0
+        },
+        {
+            "name": "atmr-bff",
+            "id": "362333",
+            "symbolSize": 0
+        },
+        {
+            "name": "sng-us",
+            "id": "198727",
+            "symbolSize": 0
+        },
+        {
+            "name": "feature-toggle-cobranca-us",
+            "id": "219494",
+            "symbolSize": 0
+        },
+        {
+            "name": "expurgo-cobranca-us",
+            "id": "500761",
+            "symbolSize": 0
+        },
+        {
+            "name": "pix-ispb-us",
+            "id": "431882",
+            "symbolSize": 0
+        },
+        {
+            "name": "contacorrente-sau-us",
+            "id": "190192",
+            "symbolSize": 0
+        },
+        {
+            "name": "push-notification-us",
+            "id": "189666",
+            "symbolSize": 0
+        },
+        {
+            "name": "conta-corrente-us",
+            "id": "186707",
+            "symbolSize": 0
+        },
+        {
+            "name": "conta-us",
+            "id": "190156",
+            "symbolSize": 0
+        },
+        {
+            "name": "desconto-duplicata-us",
+            "id": "248228",
+            "symbolSize": 0
+        },
+        {
+            "name": "autorizacao-cobranca-us",
+            "id": "186803",
+            "symbolSize": 0
+        },
+        {
+            "name": "parametro-credito-us",
+            "id": "188360",
+            "symbolSize": 0
+        },
+        {
+            "name": "gestor-credito-us",
+            "id": "188561",
+            "symbolSize": 0
+        },
+        {
+            "name": "monitore-us",
+            "id": "426301",
+            "symbolSize": 0
+        },
+        {
+            "name": "risco-us",
+            "id": "185496",
+            "symbolSize": 0
+        },
+        {
+            "name": "proposta-controle-us",
+            "id": "188421",
+            "symbolSize": 0
+        },
+        {
+            "name": "cob-web-us",
+            "id": "189798",
+            "symbolSize": 0
+        },
+        {
+            "name": "localidade-us",
+            "id": "190074",
+            "symbolSize": 0
+        },
+        {
+            "name": "dbdec-us",
+            "id": "186888",
+            "symbolSize": 0
+        },
+        {
+            "name": "linha-credito-us",
+            "id": "188403",
+            "symbolSize": 0
+        },
+        {
+            "name": "portabilidade-us",
+            "id": "536973",
+            "symbolSize": 0
+        },
+        {
+            "name": "data-lancamento-cobranca-us",
+            "id": "219365",
+            "symbolSize": 0
+        },
+        {
+            "name": "gestor-votacao-us",
+            "id": "188381",
+            "symbolSize": 0
+        },
+        {
+            "name": "pld-cash-us",
+            "id": "767623",
+            "symbolSize": 0
+        },
+        {
+            "name": "sau-us",
+            "id": "189958",
+            "symbolSize": 0
+        },
+        {
+            "name": "backoffice-sau-us",
+            "id": "912057",
+            "symbolSize": 0
+        },
+        {
+            "name": "analise-risco-us",
+            "id": "188319",
+            "symbolSize": 0
+        },
+        {
+            "name": "log-operacao-us",
+            "id": "186680",
+            "symbolSize": 0
+        },
+        {
+            "name": "sms-us",
+            "id": "185733",
+            "symbolSize": 0
+        },
+        {
+            "name": "gestor-credito-sau-us",
+            "id": "1069452",
+            "symbolSize": 0
+        },
+        {
+            "name": "controladoria-us",
+            "id": "308099",
+            "symbolSize": 0
+        },
+        {
+            "name": "negativacao-titulo-us",
+            "id": "729994",
+            "symbolSize": 0
+        },
+        {
+            "name": "contabilidade-dashboard-us",
+            "id": "783454",
+            "symbolSize": 0
+        },
+        {
+            "name": "pix-fraude-us",
+            "id": "379964",
+            "symbolSize": 0
+        },
+        {
+            "name": "sgcc-ufs",
+            "id": "190106",
+            "symbolSize": 0
+        },
+        {
+            "name": "cobranca-tarifa-us",
+            "id": "190082",
+            "symbolSize": 0
+        },
+        {
+            "name": "integrador-credito-lastros-cetip-us",
+            "id": "248748",
+            "symbolSize": 0
+        },
+        {
+            "name": "autenticador-operacao-us",
+            "id": "190126",
+            "symbolSize": 0
+        },
+        {
+            "name": "pix-agendamento-us",
+            "id": "708927",
+            "symbolSize": 0
+        },
+        {
+            "name": "beneficiario-ufs",
+            "id": "189835",
+            "symbolSize": 0
+        },
+        {
+            "name": "link-pagamento-us",
+            "id": "465277",
+            "symbolSize": 0
+        },
+        {
+            "name": "previdencia-us",
+            "id": "185848",
+            "symbolSize": 0
+        },
+        {
+            "name": "pix-psp-recebedor-us",
+            "id": "229492",
+            "symbolSize": 0
+        }
+    ],
     "links": [
         {
             "source": "1069448",
@@ -919,748 +1661,6 @@
         {
             "source": "190043",
             "target": "189958"
-        }
-    ],
-    "nodes": [
-        {
-            "name": "gestor-credito-sau-us",
-            "id": "1069452",
-            "symbolSize": 1
-        },
-        {
-            "name": "meios-pagamento-gateway-us",
-            "id": "460136",
-            "symbolSize": 1
-        },
-        {
-            "name": "operacoes-titulo-credito-us",
-            "id": "165023",
-            "symbolSize": 1
-        },
-        {
-            "name": "pre-aprovado-us",
-            "id": "1121435",
-            "symbolSize": 1
-        },
-        {
-            "name": "linha-credito-us",
-            "id": "1121410",
-            "symbolSize": 1
-        },
-        {
-            "name": "cooperativa-us",
-            "id": "1118998",
-            "symbolSize": 1
-        },
-        {
-            "name": "integrador-convenio-sau-uis",
-            "id": "262125",
-            "symbolSize": 1
-        },
-        {
-            "name": "conta-us",
-            "id": "190156",
-            "symbolSize": 1
-        },
-        {
-            "name": "titulo-us",
-            "id": "186816",
-            "symbolSize": 1
-        },
-        {
-            "name": "dbdec-us",
-            "id": "186888",
-            "symbolSize": 1
-        },
-        {
-            "name": "titulo-credito-us",
-            "id": "188472",
-            "symbolSize": 1
-        },
-        {
-            "name": "controle-transacao-canais-us",
-            "id": "189967",
-            "symbolSize": 1
-        },
-        {
-            "name": "autenticador-operacao-us",
-            "id": "190126",
-            "symbolSize": 1
-        },
-        {
-            "name": "ted-us",
-            "id": "186884",
-            "symbolSize": 1
-        },
-        {
-            "name": "convenio-sau-ufs",
-            "id": "420459",
-            "symbolSize": 1
-        },
-        {
-            "name": "contacorrente-sau-us",
-            "id": "190192",
-            "symbolSize": 1
-        },
-        {
-            "name": "investimento-us",
-            "id": "188671",
-            "symbolSize": 1
-        },
-        {
-            "name": "validador-transacao-us",
-            "id": "189888",
-            "symbolSize": 1
-        },
-        {
-            "name": "pessoa-us",
-            "id": "186640",
-            "symbolSize": 1
-        },
-        {
-            "name": "titulo-liquidacao-us",
-            "id": "190018",
-            "symbolSize": 1
-        },
-        {
-            "name": "credito-sau-us",
-            "id": "189246",
-            "symbolSize": 1
-        },
-        {
-            "name": "movimentacao-us",
-            "id": "254155",
-            "symbolSize": 1
-        },
-        {
-            "name": "multicanal-us",
-            "id": "186887",
-            "symbolSize": 1
-        },
-        {
-            "name": "pix-favorito-us",
-            "id": "609203",
-            "symbolSize": 1
-        },
-        {
-            "name": "cadastro-ufs",
-            "id": "189805",
-            "symbolSize": 1
-        },
-        {
-            "name": "simulador-credito-us",
-            "id": "188418",
-            "symbolSize": 1
-        },
-        {
-            "name": "cob-web-us",
-            "id": "189798",
-            "symbolSize": 1
-        },
-        {
-            "name": "jd-us",
-            "id": "190135",
-            "symbolSize": 1
-        },
-        {
-            "name": "canais-us",
-            "id": "186625",
-            "symbolSize": 1
-        },
-        {
-            "name": "monitore-us",
-            "id": "426301",
-            "symbolSize": 1
-        },
-        {
-            "name": "seguro-prestamista-us",
-            "id": "188467",
-            "symbolSize": 1
-        },
-        {
-            "name": "pix-ispb-us",
-            "id": "431882",
-            "symbolSize": 1
-        },
-        {
-            "name": "previdencia-us",
-            "id": "185848",
-            "symbolSize": 1
-        },
-        {
-            "name": "beneficiario-ufs",
-            "id": "189835",
-            "symbolSize": 1
-        },
-        {
-            "name": "dispositivo-seguranca-us",
-            "id": "189889",
-            "symbolSize": 1
-        },
-        {
-            "name": "pix-qrcode-us",
-            "id": "431872",
-            "symbolSize": 1
-        },
-        {
-            "name": "conta-corrente-us",
-            "id": "186707",
-            "symbolSize": 1
-        },
-        {
-            "name": "pix-efetivacao-us",
-            "id": "431870",
-            "symbolSize": 1
-        },
-        {
-            "name": "titulo-consulta-us",
-            "id": "190068",
-            "symbolSize": 1
-        },
-        {
-            "name": "pix-conta-corrente-uis",
-            "id": "431855",
-            "symbolSize": 1
-        },
-        {
-            "name": "desconto-cheque-us",
-            "id": "187797",
-            "symbolSize": 1
-        },
-        {
-            "name": "cooperativa-us",
-            "id": "189828",
-            "symbolSize": 1
-        },
-        {
-            "name": "beneficiario-us",
-            "id": "189901",
-            "symbolSize": 1
-        },
-        {
-            "name": "linha-credito-us",
-            "id": "188403",
-            "symbolSize": 1
-        },
-        {
-            "name": "titulo-usf",
-            "id": "186944",
-            "symbolSize": 1
-        },
-        {
-            "name": "contratos-us",
-            "id": "190043",
-            "symbolSize": 1
-        },
-        {
-            "name": "recebedor-us",
-            "id": "465316",
-            "symbolSize": 1
-        },
-        {
-            "name": "localidade-us",
-            "id": "190074",
-            "symbolSize": 1
-        },
-        {
-            "name": "analise-credito-us",
-            "id": "186781",
-            "symbolSize": 1
-        },
-        {
-            "name": "pix-dict-us",
-            "id": "333265",
-            "symbolSize": 1
-        },
-        {
-            "name": "pre-aprovado-us",
-            "id": "188729",
-            "symbolSize": 1
-        },
-        {
-            "name": "precificacao-us",
-            "id": "185858",
-            "symbolSize": 1
-        },
-        {
-            "name": "sau-us",
-            "id": "189958",
-            "symbolSize": 1
-        },
-        {
-            "name": "gestor-credito-bff",
-            "id": "1069448",
-            "symbolSize": 0
-        },
-        {
-            "name": "controle-transacao-canais-us",
-            "id": "189967",
-            "symbolSize": 0
-        },
-        {
-            "name": "mobile-banking-bff",
-            "id": "189933",
-            "symbolSize": 0
-        },
-        {
-            "name": "mobile-credito-bff",
-            "id": "1015896",
-            "symbolSize": 0
-        },
-        {
-            "name": "indicador-automovel-us",
-            "id": "188402",
-            "symbolSize": 0
-        },
-        {
-            "name": "contratacao-us",
-            "id": "309293",
-            "symbolSize": 0
-        },
-        {
-            "name": "limites-multicanal-us",
-            "id": "734628",
-            "symbolSize": 0
-        },
-        {
-            "name": "convenio-comprovante-us",
-            "id": "355631",
-            "symbolSize": 0
-        },
-        {
-            "name": "beneficiario-us",
-            "id": "189901",
-            "symbolSize": 0
-        },
-        {
-            "name": "cheque-us",
-            "id": "1226247",
-            "symbolSize": 0
-        },
-        {
-            "name": "desconto-cheque-us",
-            "id": "187797",
-            "symbolSize": 0
-        },
-        {
-            "name": "titulo-usf",
-            "id": "186944",
-            "symbolSize": 0
-        },
-        {
-            "name": "conta-corrente-operacao-us",
-            "id": "188480",
-            "symbolSize": 0
-        },
-        {
-            "name": "operacoes-titulo-credito-us",
-            "id": "165023",
-            "symbolSize": 0
-        },
-        {
-            "name": "internet-banking-bff",
-            "id": "189914",
-            "symbolSize": 0
-        },
-        {
-            "name": "validador-transacao-us",
-            "id": "189888",
-            "symbolSize": 0
-        },
-        {
-            "name": "autorizacao-debito-convenio-uis",
-            "id": "704091",
-            "symbolSize": 0
-        },
-        {
-            "name": "pix-conta-corrente-uis",
-            "id": "431855",
-            "symbolSize": 0
-        },
-        {
-            "name": "openbanking-contacorrente-us",
-            "id": "720974",
-            "symbolSize": 0
-        },
-        {
-            "name": "proposta-us",
-            "id": "188471",
-            "symbolSize": 0
-        },
-        {
-            "name": "usuario-us",
-            "id": "186880",
-            "symbolSize": 0
-        },
-        {
-            "name": "cadastro-ufs",
-            "id": "189805",
-            "symbolSize": 0
-        },
-        {
-            "name": "contratos-us",
-            "id": "190043",
-            "symbolSize": 0
-        },
-        {
-            "name": "meios-pagamento-gateway-us",
-            "id": "460136",
-            "symbolSize": 0
-        },
-        {
-            "name": "investimento-us",
-            "id": "188671",
-            "symbolSize": 0
-        },
-        {
-            "name": "gestor-limite-transacao-us",
-            "id": "533048",
-            "symbolSize": 0
-        },
-        {
-            "name": "multicanal-us",
-            "id": "186887",
-            "symbolSize": 0
-        },
-        {
-            "name": "pre-aprovado-us",
-            "id": "188729",
-            "symbolSize": 0
-        },
-        {
-            "name": "conta-vinculada-us",
-            "id": "188541",
-            "symbolSize": 0
-        },
-        {
-            "name": "simulador-credito-us",
-            "id": "188418",
-            "symbolSize": 0
-        },
-        {
-            "name": "antecipacao-recebiveis-us",
-            "id": "190159",
-            "symbolSize": 0
-        },
-        {
-            "name": "seguro-prestamista-us",
-            "id": "188467",
-            "symbolSize": 0
-        },
-        {
-            "name": "titulo-credito-us",
-            "id": "188472",
-            "symbolSize": 0
-        },
-        {
-            "name": "gestor-limites-us",
-            "id": "564614",
-            "symbolSize": 0
-        },
-        {
-            "name": "dispositivo-seguranca-us",
-            "id": "189889",
-            "symbolSize": 0
-        },
-        {
-            "name": "titulo-us",
-            "id": "186816",
-            "symbolSize": 0
-        },
-        {
-            "name": "titulo-liquidacao-us",
-            "id": "190018",
-            "symbolSize": 0
-        },
-        {
-            "name": "titulo-consulta-us",
-            "id": "190068",
-            "symbolSize": 0
-        },
-        {
-            "name": "analise-credito-us",
-            "id": "186781",
-            "symbolSize": 0
-        },
-        {
-            "name": "pix-efetivacao-us",
-            "id": "431870",
-            "symbolSize": 0
-        },
-        {
-            "name": "pix-qrcode-us",
-            "id": "431872",
-            "symbolSize": 0
-        },
-        {
-            "name": "recebedor-us",
-            "id": "465316",
-            "symbolSize": 0
-        },
-        {
-            "name": "pix-qrcode-ufs",
-            "id": "750075",
-            "symbolSize": 0
-        },
-        {
-            "name": "atm-bff",
-            "id": "189939",
-            "symbolSize": 0
-        },
-        {
-            "name": "pessoa-us",
-            "id": "186640",
-            "symbolSize": 0
-        },
-        {
-            "name": "integrador-convenio-sau-uis",
-            "id": "262125",
-            "symbolSize": 0
-        },
-        {
-            "name": "precificacao-us",
-            "id": "185858",
-            "symbolSize": 0
-        },
-        {
-            "name": "convenio-sau-ufs",
-            "id": "420459",
-            "symbolSize": 0
-        },
-        {
-            "name": "onboarding-gr-bff",
-            "id": "463612",
-            "symbolSize": 0
-        },
-        {
-            "name": "pix-devolucao-us",
-            "id": "431820",
-            "symbolSize": 0
-        },
-        {
-            "name": "dda-us",
-            "id": "186745",
-            "symbolSize": 0
-        },
-        {
-            "name": "pagamento-cash-us",
-            "id": "387539",
-            "symbolSize": 0
-        },
-        {
-            "name": "atmr-bff",
-            "id": "362333",
-            "symbolSize": 0
-        },
-        {
-            "name": "sng-us",
-            "id": "198727",
-            "symbolSize": 0
-        },
-        {
-            "name": "feature-toggle-cobranca-us",
-            "id": "219494",
-            "symbolSize": 0
-        },
-        {
-            "name": "expurgo-cobranca-us",
-            "id": "500761",
-            "symbolSize": 0
-        },
-        {
-            "name": "pix-ispb-us",
-            "id": "431882",
-            "symbolSize": 0
-        },
-        {
-            "name": "contacorrente-sau-us",
-            "id": "190192",
-            "symbolSize": 0
-        },
-        {
-            "name": "push-notification-us",
-            "id": "189666",
-            "symbolSize": 0
-        },
-        {
-            "name": "conta-corrente-us",
-            "id": "186707",
-            "symbolSize": 0
-        },
-        {
-            "name": "conta-us",
-            "id": "190156",
-            "symbolSize": 0
-        },
-        {
-            "name": "desconto-duplicata-us",
-            "id": "248228",
-            "symbolSize": 0
-        },
-        {
-            "name": "autorizacao-cobranca-us",
-            "id": "186803",
-            "symbolSize": 0
-        },
-        {
-            "name": "parametro-credito-us",
-            "id": "188360",
-            "symbolSize": 0
-        },
-        {
-            "name": "gestor-credito-us",
-            "id": "188561",
-            "symbolSize": 0
-        },
-        {
-            "name": "monitore-us",
-            "id": "426301",
-            "symbolSize": 0
-        },
-        {
-            "name": "risco-us",
-            "id": "185496",
-            "symbolSize": 0
-        },
-        {
-            "name": "proposta-controle-us",
-            "id": "188421",
-            "symbolSize": 0
-        },
-        {
-            "name": "cob-web-us",
-            "id": "189798",
-            "symbolSize": 0
-        },
-        {
-            "name": "localidade-us",
-            "id": "190074",
-            "symbolSize": 0
-        },
-        {
-            "name": "dbdec-us",
-            "id": "186888",
-            "symbolSize": 0
-        },
-        {
-            "name": "linha-credito-us",
-            "id": "188403",
-            "symbolSize": 0
-        },
-        {
-            "name": "portabilidade-us",
-            "id": "536973",
-            "symbolSize": 0
-        },
-        {
-            "name": "data-lancamento-cobranca-us",
-            "id": "219365",
-            "symbolSize": 0
-        },
-        {
-            "name": "gestor-votacao-us",
-            "id": "188381",
-            "symbolSize": 0
-        },
-        {
-            "name": "pld-cash-us",
-            "id": "767623",
-            "symbolSize": 0
-        },
-        {
-            "name": "sau-us",
-            "id": "189958",
-            "symbolSize": 0
-        },
-        {
-            "name": "backoffice-sau-us",
-            "id": "912057",
-            "symbolSize": 0
-        },
-        {
-            "name": "analise-risco-us",
-            "id": "188319",
-            "symbolSize": 0
-        },
-        {
-            "name": "log-operacao-us",
-            "id": "186680",
-            "symbolSize": 0
-        },
-        {
-            "name": "sms-us",
-            "id": "185733",
-            "symbolSize": 0
-        },
-        {
-            "name": "gestor-credito-sau-us",
-            "id": "1069452",
-            "symbolSize": 0
-        },
-        {
-            "name": "controladoria-us",
-            "id": "308099",
-            "symbolSize": 0
-        },
-        {
-            "name": "negativacao-titulo-us",
-            "id": "729994",
-            "symbolSize": 0
-        },
-        {
-            "name": "contabilidade-dashboard-us",
-            "id": "783454",
-            "symbolSize": 0
-        },
-        {
-            "name": "pix-fraude-us",
-            "id": "379964",
-            "symbolSize": 0
-        },
-        {
-            "name": "sgcc-ufs",
-            "id": "190106",
-            "symbolSize": 0
-        },
-        {
-            "name": "cobranca-tarifa-us",
-            "id": "190082",
-            "symbolSize": 0
-        },
-        {
-            "name": "integrador-credito-lastros-cetip-us",
-            "id": "248748",
-            "symbolSize": 0
-        },
-        {
-            "name": "autenticador-operacao-us",
-            "id": "190126",
-            "symbolSize": 0
-        },
-        {
-            "name": "pix-agendamento-us",
-            "id": "708927",
-            "symbolSize": 0
-        },
-        {
-            "name": "beneficiario-ufs",
-            "id": "189835",
-            "symbolSize": 0
-        },
-        {
-            "name": "link-pagamento-us",
-            "id": "465277",
-            "symbolSize": 0
-        },
-        {
-            "name": "previdencia-us",
-            "id": "185848",
-            "symbolSize": 0
-        },
-        {
-            "name": "pix-psp-recebedor-us",
-            "id": "229492",
-            "symbolSize": 0
         }
     ]
 }
