@@ -134,7 +134,7 @@
         },
         {
             "id": "EoSStatus",
-            "type": "DATE"
+            "type": "NUMBER"
         },
         {
             "id": "Net",
